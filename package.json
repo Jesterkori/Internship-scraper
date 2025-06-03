@@ -1,0 +1,26 @@
+{
+  "name": "internship-tracker",
+  "version": "1.0.0",
+  "description": "Track internship postings from major tech companies",
+  "main": "src/index.ts",
+  "scripts": {
+    "start": "tsx src/index.ts",
+    "build": "tsc",
+    "dev": "tsx watch src/index.ts",
+    "check": "tsx src/index.ts check",
+    "monitor": "tsx src/index.ts monitor",
+    "list": "tsx src/index.ts list"
+  },
+  "dependencies": {
+    "axios": "^1.6.0",
+    "cheerio": "^1.0.0-rc.12",
+    "@types/node": "^20.0.0"
+  },
+  "devDependencies": {
+    "tsx": "^4.0.0",
+    "typescript": "^5.0.0"
+  },
+  "keywords": ["internship", "tracker", "scraper", "typescript"],
+  "author": "Your Name",
+  "license": "MIT"
+}
